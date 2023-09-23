@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ProyectoFinal-Villarreal-ReactJS/static/css/main.1f15fb3c.css",
-    "main.js": "/ProyectoFinal-Villarreal-ReactJS/static/js/main.c8156697.js",
+    "main.js": "/ProyectoFinal-Villarreal-ReactJS/static/js/main.f0ac5bd4.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/ProyectoFinal-Villarreal-ReactJS/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bgmain.jpg": "/ProyectoFinal-Villarreal-ReactJS/static/media/bgmain.0158b07196d136411ae1.jpg",
     "static/media/bootstrap-icons.woff?": "/ProyectoFinal-Villarreal-ReactJS/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
@@ -12,10 +12,10 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ProyectoFinal-Villarreal-ReactJS/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/ProyectoFinal-Villarreal-ReactJS/index.html",
     "main.1f15fb3c.css.map": "/ProyectoFinal-Villarreal-ReactJS/static/css/main.1f15fb3c.css.map",
-    "main.c8156697.js.map": "/ProyectoFinal-Villarreal-ReactJS/static/js/main.c8156697.js.map"
+    "main.f0ac5bd4.js.map": "/ProyectoFinal-Villarreal-ReactJS/static/js/main.f0ac5bd4.js.map"
   },
   "entrypoints": [
     "static/css/main.1f15fb3c.css",
-    "static/js/main.c8156697.js"
+    "static/js/main.f0ac5bd4.js"
   ]
 }
