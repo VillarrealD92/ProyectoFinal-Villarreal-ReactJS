@@ -42,6 +42,7 @@ function OrderItem({ orderId }) {
                         <div className='cart-item-details'>
                             <p><b>{servicio.nombre}</b></p>
                             <p>Precio: ${servicio.precio} Ars</p>
+                            <p>Categoria: {servicio.categoria}</p>
                             <p>Cantidad: {servicio.quantity}</p>
                         </div>
                     </div>

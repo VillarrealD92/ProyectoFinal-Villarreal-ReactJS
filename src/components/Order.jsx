@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import OrderForm from './OrderForm';
-import OrderItem from './OrderItem'; // Importa el componente OrderItem
+import OrderItem from './OrderItem';
 
 function Order() {
   const [orderId, setOrderId] = useState(null);

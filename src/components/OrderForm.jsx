@@ -34,7 +34,7 @@ function OrderForm({ onSubmit }) {
       console.error('Error al guardar la orden en Firebase:', error);
     }
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <div className="mb-3">
