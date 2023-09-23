@@ -1,38 +1,81 @@
-.App {
+/* BODY */
+body{
+  background-image: url(./assets/bgmain.jpg);
+  background-size:contain;
+  background-repeat: repeat;
+}
+
+/* LOGO */
+.logoprincipal{
+  width: 75px;
+  height: 75px;
+}
+
+/* NAV */
+.navbar .nav-link {
+  color: rgb(253, 249, 249);
+}
+
+.navbar .nav-link:hover {
+  color: rgb(8, 240, 228);
+}
+
+.navbar .nav-link.active {
+  color: rgb(8, 240, 228);
+}
+
+/* CARRITO */
+.cart-widget {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  color: rgb(253, 249, 249);
+  transition: color 0.3s; /* Agrega una transición suave */
+}
+
+.cart-widget:hover {
+  color: rgb(8, 240, 228);
+}
+
+.cart-icon {
+  font-size: 30px; 
+}
+
+
+/* SALUDO */
+.item-list-container{
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* DETAIL */
+.custom-card{
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tel .mail{
+  font-weight: italic;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fotodetail{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+
+
+.cart-items-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-container {
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
